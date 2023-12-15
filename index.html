@@ -50,16 +50,48 @@
                         </div>
                         <div class="swiper gift__swiper gift__swiper--thumb">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide gift__card-thumb">Slide 1</div>
-                                <div class="swiper-slide gift__card-thumb">Slide 2</div>
-                                <div class="swiper-slide gift__card-thumb">Slide 3</div>
-                                <div class="swiper-slide gift__card-thumb">Slide 4</div>
+                                <div class="swiper-slide gift__card-thumb">
+                                    <img class="gift__card-image" src="img/Card_01.jpg" alt="Открытка №1">
+                                </div>
+                                <div class="swiper-slide gift__card-thumb">
+                                    <img class="gift__card-image" src="img/Card_02.jpg" alt="Открытка №2">
+                                </div>
+                                <div class="swiper-slide gift__card-thumb">
+                                    <img class="gift__card-image" src="img/Card_03.jpg" alt="Открытка №3">
+                                </div>
+                                <div class="swiper-slide gift__card-thumb">
+                                    <img class="gift__card-image" src="img/Card_04.jpg" alt="Открытка №4">
+                                </div>
+                                <div class="swiper-slide gift__card-thumb">
+                                    <img class="gift__card-image" src="img/Card_05.jpg" alt="Открытка №5">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="gift__form">
-
-                    </div>
+                    <form class="gift__form form">
+                        <label class="form__label">
+                            <span class="form__label-text">от кого</span>
+                            <input type="text" class="form__field" name="sender_name">
+                        </label>
+                        <label class="form__label">
+                            <span class="form__label-text">телефон отправителя</span>
+                            <input type="text" class="form__field" name="sender_phone">
+                        </label>
+                        <label class="form__label">
+                            <span class="form__label-text">кому</span>
+                            <input type="text" class="form__field" name="receiver_name">
+                        </label>
+                        <label class="form__label">
+                            <span class="form__label-text">телефон получателя</span>
+                            <input type="text" class="form__field" name="receiver_phone">
+                        </label>
+                        <label class="form__label form__label--textarea">
+                            <span class="form__label-text">поздравительный текст</span>
+                            <textarea class="form__field form__field--textarea" name="message"
+                                placeholder="Напишите теплые слова"></textarea>
+                        </label>
+                        <button type="submit" class="form__button" disabled>Отправить</button>
+                    </form>
                 </div>
             </div>
         </section>
