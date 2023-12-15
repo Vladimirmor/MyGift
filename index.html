@@ -5,10 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyGift</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 </head>
 
-<body>
+<body class="body body--gift">
+    <header class="header">
+        <div class="container">
+            <img class="header__logo" src="img/logo.svg" alt="Логотип проекта MyGift" width="180" height="48">
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="gift">
+            <div class="container">
+                <h1 class="gift__title">
+                    Поздравьте близкого человека с праздником!
+                </h1>
+                <p class="gift__description">
+                    Выберите открытку и получатель получит ее на свой телефон
+                </p>
+                <div class="gift__wrapper">
+                    <div class="gift__card">
+                        <div class="swiper gift__swiper gift__swiper--card">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide gift__card-slide">
+                                    <img class="gift__card-image" src="img/Card_01.jpg" alt="Открытка №1">
+                                </div>
+                                <div class="swiper-slide gift__card-slide">
+                                    <img class="gift__card-image" src="img/Card_02.jpg" alt="Открытка №2">
+                                </div>
+                                <div class="swiper-slide gift__card-slide">
+                                    <img class="gift__card-image" src="img/Card_03.jpg" alt="Открытка №3">
+                                </div>
+                                <div class="swiper-slide gift__card-slide">
+                                    <img class="gift__card-image" src="img/Card_04.jpg" alt="Открытка №4">
+                                </div>
+                                <div class="swiper-slide gift__card-slide">
+                                    <img class="gift__card-image" src="img/Card_05.jpg" alt="Открытка №5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper gift__swiper gift__swiper--thumb">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide gift__card-thumb">Slide 1</div>
+                                <div class="swiper-slide gift__card-thumb">Slide 2</div>
+                                <div class="swiper-slide gift__card-thumb">Slide 3</div>
+                                <div class="swiper-slide gift__card-thumb">Slide 4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gift__form">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 
